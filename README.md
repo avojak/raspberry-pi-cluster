@@ -2,27 +2,15 @@
 
 ## Packer
 
+TODO: Not working yet
+
 ### Prerequisites
 
-#### packer-builder-arm
-
-Build packer-builder-arm:
-
-```bash
-$ git clone https://github.com/mkaczanowski/packer-builder-arm
-$ cd packer-builder-arm
-$ go mod download
-$ go build
-```
-
-Install:
-
-```bash
-$ mkdir ~/.packer.d/plugins
-$ cp packer-builder-arm ~/.packer.d/plugins
-```
+- packer-builder-arm
 
 ## Ansible
+
+Working - see instructions in ./ansible
 
 ## K3s Dashboard
 
